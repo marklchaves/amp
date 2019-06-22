@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Joy of Pets</title>
-    <link rel="canonical" href="pets.html">
+    <link rel="canonical" href="https://marklchaves.com/portfolio-items/bali/">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -11,30 +11,38 @@
         src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
     <script async custom-element="amp-story"
         src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap" rel="stylesheet">
     <style amp-custom>
       amp-story {
-        font-family: 'Oswald',sans-serif;
-        color: #fff;
+        font-family: 'Raleway',sans-serif;
+        background-color: #212326;
+        color: #777777;
+        font-size: 18px;
       }
       amp-story-page {
-        background-color: #000;
+        background-color: #212326;
+        max-width: 720px;
+        margin: 0 auto !important;
+      }
+
+      h1, h2 {
+        font-family: "Playfair Display", serif;
       }
       h1 {
-        font-weight: bold;
-        font-size: 2.875em;
-        font-weight: normal;
-        line-height: 1.174;
+        line-height: 4rem;
       }
       p {
         font-weight: normal;
         font-size: 1.3em;
         line-height: 1.5em;
-        color: #fff;
+        color: #777777;
       }
       q {
         font-weight: 300;
         font-size: 1.1em;
+      }
+      .fine-print {
+        font-size: 0.75rem;
       }
       amp-story-grid-layer.bottom {
         align-content:end;
@@ -60,46 +68,47 @@
   <body>
     <!-- Cover page -->
     <amp-story standalone
-        title="Joy of Pets"
-        publisher="AMP tutorials"
-        publisher-logo-src="assets/AMP-Brand-White-Icon.svg"
+        title="ini bali &#8226; this is bali"
+        publisher="mark l chaves"
+        publisher-logo-src="assets/cropped-mlc_logo-mid-grey_100-2.svg"
         poster-portrait-src="assets/cover.jpg">
       <amp-story-page id="cover">
         <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover.jpg"
-              width="720" height="1280"
+          <amp-img src="assets/bali-payogan-pura-bapak-pager-ed-mob.jpg"
+              width="720" height="1080"
               layout="responsive">
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
-          <h1>The Joy of Pets</h1>
-          <p>By AMP Tutorials</p>
+          <h1>ini bali &#8226; this is&nbsp;bali</h1>
+          <p>the island of the goddesses &amp; gods</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- Page 1 (Cat): 1 layer (vertical) -->
+      <!-- Page 1 (to see rather than look): 1 layer (vertical) -->
       <amp-story-page id="page1">
         <amp-story-grid-layer template="vertical">
-          <h1>Cats</h1>
-          <amp-img src="assets/cat.jpg"
-              width="720" height="1280"
+          <h1>to see</h1>
+          <amp-img src="assets/bali-ubud-palace-ibu-bus-jendela-mob.jpg"
+              width="720" height="1086"
               layout="responsive">
           </amp-img>
-          <q>Dogs come when they're called. Cats take a message and get back to you. --Mary Bly</q>
+          <p>rather than look</p>
+          <div class="fine-print">~ubud on 35mm film</div>
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- Page 2 (Dog): 2 layers (fill + thirds) -->
+      <!-- Page 2 (silhouette): 2 layers (fill + thirds) -->
       <amp-story-page id="page2">
         <amp-story-grid-layer template="fill">
-          <amp-img src="assets/dog.jpg" 
-              width="720" height="1280"
+          <amp-img src="assets/bali-gianyar-silhouette-bapak-pintu-bw-mob.jpg" 
+              width="720" height="1080"
               layout="responsive">
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Dogs</h1>
-            <p grid-area="lower-third">Dogs were probably the first tame animals. They have accompanied humans for some 10,000 years. Some scientists assert that all dogs, domestic and wild, share a common ancestor in the small South Asian wolf.</p>
+            <h1 grid-area="upper-third"></h1>
+            <p grid-area="lower-third">gianyar<br>city</p>
         </amp-story-grid-layer>
       </amp-story-page>
 

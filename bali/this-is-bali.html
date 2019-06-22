@@ -79,14 +79,15 @@
       max-width: 400px;
       margin: 0 auto;
     }
+    /* Let's throw-in a home made fade-in. */
     .fade-in {
-      animation: example;
+      animation: fade-animation;
       animation-delay: 2.5s;
       animation-duration: 3s;
       animation-fill-mode: backwards;
     }
-    /* Standard syntax */
-    @keyframes example {
+    /* Poor man's fade-in animation. */
+    @keyframes fade-animation {
       from {color: #212326;}
       to {color: #777777;}
 }
@@ -95,11 +96,11 @@
 <body>
   <div class="content">
   <amp-carousel type="slides" width="400" height="400" layout="responsive" loop autoplay delay="5000" lightbox>
-    <amp-img src="./images/bali-payogan-pura-bapak-pager-ed-sq-sm.jpg" width="400px" height="400px" layout="responsive" alt="balinality - 35mm film">
+    <amp-img src="./images/bali-payogan-pura-bapak-pager-ed-sq-sm.jpg" width="400px" height="400px" layout="responsive" alt="balinality on 35mm film by freelance photographer mark l chaves">
     </amp-img>
-    <amp-img src="./images/balinality-sukawati-wedding-pintu-depan-ed-sq-sm.jpg" width="400px" height="400px" layout="responsive" alt="balinese farmer in the field">
+    <amp-img src="./images/balinality-sukawati-wedding-pintu-depan-ed-sq-sm.jpg" width="400px" height="400px" layout="responsive" alt="balinese farmer in the field by freelance photographer mark l chaves">
     </amp-img>
-    <amp-img src="./images/balinality-offerings-wedding-sukma-sq-sm.jpg" width="400px" height="400px" layout="responsive" alt="balinese farmer in the field">
+    <amp-img src="./images/balinality-offerings-wedding-sukma-sq-sm.jpg" width="400px" height="400px" layout="responsive" alt="balinality on 35mm film by freelance photographer mark l chaves">
     </amp-img>
   </amp-carousel>
   <div class="intro-para">
